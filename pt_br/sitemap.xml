@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://teamlitcs.com/pt_br/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://teamlitcs.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt_br"
+                href="https://teamlitcs.com/pt_br/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://teamlitcs.com/pt_br/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://teamlitcs.com/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt_br"
+                href="https://teamlitcs.com/pt_br/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://teamlitcs.com/pt_br/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://teamlitcs.com/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt_br"
+                href="https://teamlitcs.com/pt_br/contact/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://teamlitcs.com/pt_br/privacy-policy/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://teamlitcs.com/privacy-policy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt_br"
+                href="https://teamlitcs.com/pt_br/privacy-policy/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://teamlitcs.com/pt_br/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://teamlitcs.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt_br"
+                href="https://teamlitcs.com/pt_br/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://teamlitcs.com/pt_br/terms-conditions/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://teamlitcs.com/terms-conditions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt_br"
+                href="https://teamlitcs.com/pt_br/terms-conditions/"
+                />
+  </url>
+  
+</urlset>
