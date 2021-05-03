@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teamlitcs</title>
-    <link>https://teamlitcs.com/</link>
+    <link>https://teamlitcs.github.io/</link>
     <description>Recent content on Teamlitcs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Design By [Themefisher](https://themefisher.com/) Develop By [Gethugothemes](https://gethugothemes.com/)</copyright><atom:link href="https://teamlitcs.com/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Design By [Themefisher](https://themefisher.com/) Develop By [Gethugothemes](https://gethugothemes.com/)</copyright><atom:link href="https://teamlitcs.github.io/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
