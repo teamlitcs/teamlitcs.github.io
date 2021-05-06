@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-  <sitemap>
-    <loc>https://teamlitcs.github.io/en/sitemap.xml</loc>
-    
-  </sitemap>
+  <url>
+    <loc>https://teamlitcs.github.io/</loc>
+  </url>
   
-  <sitemap>
-    <loc>https://teamlitcs.github.io/pt_br/sitemap.xml</loc>
-    
-  </sitemap>
+  <url>
+    <loc>https://teamlitcs.github.io/categories/</loc>
+  </url>
   
-</sitemapindex>
+  <url>
+    <loc>https://teamlitcs.github.io/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://teamlitcs.github.io/privacy-policy/</loc>
+  </url>
+  
+  <url>
+    <loc>https://teamlitcs.github.io/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://teamlitcs.github.io/terms-conditions/</loc>
+  </url>
+  
+</urlset>
