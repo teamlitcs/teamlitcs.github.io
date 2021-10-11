@@ -308,12 +308,13 @@
     // initiate variables with form content
     var email = $("#nemail").val();
     var terms = $("#nterms").val();
+
     $.ajax({
       type: "POST",
-      url: "php/newsletterform-process.php",
-      data: "email=" + email + "&terms=" + terms,
+      url: "https://script.google.com/macros/s/AKfycbzUak8sBrnc6PgzhzlH8dYJI_ewXsnYOrOFbqbLjdH8oL5JBrMJgWXeK3KbmzbKxUBr/exec",
+      data: "email=" + email + "&accept-terms=" + terms,
       success: function (text) {
-        if (text == "success") {
+        if (text.result == "success") {
           nformSuccess();
         } else {
           nformError();
@@ -325,7 +326,7 @@
 
   function nformSuccess() {
     $("#newsletterForm")[0].reset();
-    nsubmitMSG(true, "Subscribed!");
+    nsubmitMSG(true, "Thanks for Contacting us..!");
     $("input").removeClass("notEmpty"); // resets the field label after submission
   }
 
