@@ -306,21 +306,20 @@
 
   function nsubmitForm() {
     // initiate variables with form content
-    var email = $("#nemail").val();
-    var terms = $("#nterms").val();
+    var email = $("#email").val();
+    var accepted_terms = $("#accepted_terms").val();
+    var language = $("#language").val();
 
     $.ajax({
       type: "POST",
-      url: "https://script.google.com/macros/s/AKfycbzUak8sBrnc6PgzhzlH8dYJI_ewXsnYOrOFbqbLjdH8oL5JBrMJgWXeK3KbmzbKxUBr/exec",
-      data: "email=" + email + "&accept-terms=" + terms,
-      success: function (text) {
-        if (text.result == "success") {
-          nformSuccess();
-        } else {
-          nformError();
-          nsubmitMSG(false, text);
-        }
-      },
+      url: "https://app.teamlitcs.com/newsletter",
+      data: "email=" + email + "&accepted_terms=" + accepted_terms + "&language=" + language,
+      success: function () {
+        nformSuccess();
+      }
+    }).fail(function (response) {
+      nformError();
+      nsubmitMSG(false, response.responseJSON.messages[0]);
     });
   }
 
