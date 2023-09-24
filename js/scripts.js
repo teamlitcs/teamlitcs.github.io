@@ -312,7 +312,7 @@
 
     $.ajax({
       type: "POST",
-      url: "https://app.teamlitcs.com/newsletter",
+      url: "https://app.teamlitcs.com/api/newsletter",
       data: "email=" + email + "&accepted_terms=" + accepted_terms + "&language=" + language,
       success: function () {
         nformSuccess();
